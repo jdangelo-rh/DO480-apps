@@ -6,6 +6,5 @@ bases:
 resources:
   - pvc.yaml
   - route.yaml
-  - deployment.yaml
 
 namePrefix: dev-
