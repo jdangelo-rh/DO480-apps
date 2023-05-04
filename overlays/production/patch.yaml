@@ -1,0 +1,12 @@
+apiVersion: apps.openshift.io/v1
+kind: DeploymentConfig
+metadata:
+  name: httpd-example-prod
+  namespace: cpredhat
+spec:
+  template:
+    spec:
+      volumes:
+      - name: registry-storage
+        persistentVolumeClaim:
+          claimName: drtest2
