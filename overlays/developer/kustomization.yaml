@@ -8,4 +8,4 @@ resources:
   - route.yaml
   - deployment.yaml
 
-nameSuffix: -prod
+namePrefix: dev-
