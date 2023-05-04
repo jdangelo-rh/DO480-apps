@@ -1,7 +1,7 @@
 apiVersion: apps.openshift.io/v1
 kind: DeploymentConfig
 metadata:
-  name: httpd-example-prod
+  name: httpd-example
   namespace: cpredhat
 spec:
   template:
