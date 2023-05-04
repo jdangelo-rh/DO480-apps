@@ -8,4 +8,4 @@ spec:
       volumes:
       - name: drtest
         persistentVolumeClaim:
-          claimName: drtest2
+          claimName: drtest2-prod
