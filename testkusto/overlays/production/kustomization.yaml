@@ -1,0 +1,8 @@
+kind: Kustomization
+
+bases:
+  ../../testkusto
+  
+overlays:
+  - pvc.yaml
+  - route.yaml
