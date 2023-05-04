@@ -1,0 +1,13 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: httpd-example
+  labels:
+    app: httpd-example
+    template: httpd-example
+spec:
+  to:
+    kind: Service
+    name: httpd-example
+    weight: 100
+  wildcardPolicy: None
