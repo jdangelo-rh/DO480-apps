@@ -7,6 +7,6 @@ spec:
   template:
     spec:
       volumes:
-      - name: registry-storage
+      - name: drtest
         persistentVolumeClaim:
           claimName: drtest2
